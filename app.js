@@ -29,4 +29,4 @@ app.use("/", api);
 app.listen(process.env.PORT, () =>
   console.log(`server start locatlhost:${process.env.PORT}`)
 );
-// localhost:3000/api/teacherDisplay/(search this)
+//Thia is live URL==> https://traders-api.onrender.com
