@@ -2,23 +2,23 @@ const mongoose = require("mongoose")
 const TenderSchema = new mongoose.Schema({
   name: {
     type: String,
-    Requried: true
+    Required: true
   },
   description: {
     type: String,
-    Requried: true
+    Required: true
   },
   start_time: {
     type: Date,
-    Requried: true
+    Required: true
   },
   end_time: {
     type: Date,
-    Requried: true
+    Required: true
   },
   buffer_time: {
     type: Number,
-    Requried: 0
+    Required: 0
   }
 },
   { timestamps: true }
