@@ -23,7 +23,7 @@ dotenv.config({
 connectDB();
 // route load
 // localhost:3000/api/
-app.use("/api", api);
+app.use("/", api);
 
 
 app.listen(process.env.PORT, () =>
